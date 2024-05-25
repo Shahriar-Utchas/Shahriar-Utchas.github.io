@@ -51,7 +51,6 @@ educationOption.addEventListener("click", () => {
   eduContent2.classList.add("underline");
   skillContent.style.display = "none";
   skillContent2.classList.remove("underline");
-
 });
 
 skillOption.addEventListener("click", () => {
@@ -60,4 +59,3 @@ skillOption.addEventListener("click", () => {
   skillContent.style.display = "flex";
   skillContent2.classList.add("underline");
 });
-
