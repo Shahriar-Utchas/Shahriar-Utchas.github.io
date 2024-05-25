@@ -453,8 +453,8 @@
     height: 400px;
   }
   .project1 .pic img, .project2 .pic img, .project3 .pic img, .project4 .pic img {
-    width: 90%;
-    height: 300px;
+    width: 80%;
+    height: 250px;
     position: relative;
     top: -50px;
 
