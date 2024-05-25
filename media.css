@@ -1,0 +1,482 @@
+@media screen and (max-width: 1030px) {
+  .navbar {
+    flex-direction: row;
+    height: 100px;
+  }
+  .nav-left,
+  .nav-right {
+    margin: 10px;
+  }
+  .nav-right ul {
+    display: none; /* Hide navigation links */
+  }
+  .menu-btn {
+    display: block; /* Show menu button */
+  }
+  .nav-left img{
+    width: 200px;
+    /* margin-right: 10px; */
+  
+  }
+  .firstSection {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .firstContent {
+    width: 70%;
+    margin: -20px 0;
+    font-size: 2rem;
+    text-align: center;
+  }
+  .secondContent {
+    width: 80%;
+    margin: 10px 0;
+    text-align: center;
+  }
+  .secondContent img {
+    width: 60%;
+    margin: 50px 0;
+  }
+  .btn {
+    margin: 30px 10px;
+    padding: 10px 20px;
+    background-color: blueviolet;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 1.1rem;
+    cursor: pointer;
+    transition: all 0.3s;
+  }
+  .top{
+    left: 420px;
+  }
+  footer{
+    width: 50%;
+  }
+}
+
+/* top button */
+@media screen and (max-width: 1261px) {
+  .top{
+    left: 1100px;
+  }
+
+}
+@media screen and (max-width: 1171px) {
+  .top{
+    left: 1050px;
+  }
+
+}
+@media screen and (max-width: 1121px) {
+  .top{
+    left: 1000px;
+  }
+
+}
+@media screen and (max-width: 1063px) {
+  .top{
+    left: 900px;
+  }
+
+}
+@media screen and (max-width: 973px) {
+  .top{
+    left: 800px;
+  }
+
+}
+@media screen and (max-width: 868px) {
+  .top{
+    left: 700px;
+  }
+
+}
+@media screen and (max-width: 771px) {
+  .top{
+    left: 600px;
+  }
+
+}
+@media screen and (max-width: 663px) {
+  .top{
+    left: 500px;
+  }
+
+}
+@media screen and (max-width: 566px) {
+  .top{
+    left: 400px;
+  }
+
+}
+@media screen and (max-width: 467px) {
+  .top{
+    left: 350px;
+  }
+
+}
+@media screen and (max-width: 413px) {
+  .top{
+    left: 300px;
+  }
+
+}
+@media screen and (max-width: 367px) {
+  .top{
+    left: 250px;
+  }
+
+}
+@media screen and (min-width: 1284px) {
+  .top{
+    left: 1220px;
+  }
+
+}
+@media screen and (min-width: 1370px) {
+  .top{
+    left: 1280px;
+  }
+
+}
+@media screen and (min-width: 1500px) {
+  .top{
+    left: 1350px;
+  }
+
+}
+/* top button responsive ends */
+
+/* contact */
+@media screen and (max-width: 1078px) {
+  .fourthSectionContent h1{
+    font-size: 2.7rem;
+  }
+  .fourthSectionContent p {
+    font-size: 1.3rem;
+  }
+  .social{
+    margin-left: 10px;
+  }
+  .social i{
+    font-size: 1.5rem;
+    margin: 6px;
+  }
+}
+@media screen and (max-width: 1021px) {
+  .fourthSectionContent h1{
+    font-size: 2.5rem;
+  }
+  .fourthSectionContent p {
+    font-size: 1.1rem;
+  }
+  .social i{
+    font-size: 1.3rem;
+    margin: 5px;
+  }
+}
+@media screen and (max-width: 929px) {
+  .fourthSectionContent h1{
+    font-size: 2rem;
+  }
+  .fourthSectionContent p {
+    font-size: 1rem;
+  }
+  .social{
+    margin-left: 15px;
+  }
+  .social i{
+    font-size: 1.1rem;
+    margin: 3px;
+  }
+}
+@media screen and (max-width: 856px) {
+  .fourthSection{
+    width: 70%;
+  }
+  .fourthSectionContent h1{
+    font-size: 1.8rem;
+  }
+  .fourthSectionContent p {
+    margin: 15px 25px;
+    font-size: 0.8rem;
+  }
+  .social{
+    margin-left: 15px;
+  }
+  .social i{
+    font-size: 1rem;
+    margin: 1.5px;
+  }
+  .message-box input{
+    width: 60%;
+  }
+  .message-box textarea{
+    width: 60%;
+  }
+  .message-box button{
+    left: 220px;
+  }
+}
+@media screen and (max-width: 792px) {
+  .fourthSection{
+    width: 70%;
+  }
+  .fourthSectionContent h1{
+    font-size: 1.5rem;
+  }
+  .fourthSectionContent p {
+    margin: 15px 15px;
+    font-size: 0.8rem;
+  }
+  .social{
+    margin-left: 10px;
+  }
+  .social i{
+    font-size: 0.8rem;
+    margin: 0.1px;
+  }
+  .message-box input{
+    width: 60%;
+  }
+  .message-box textarea{
+    width: 60%;
+  }
+  .message-box button{
+    left: 200px;
+  }
+}
+@media screen and (max-width: 753px) {
+  .fourthSection {
+    margin: 15px 0px 15px 70px;
+    width: 80%;
+  }
+  .fourthSectionContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .fourthSectionContent h1{
+    font-size: 2.3rem;
+  }
+  .fourthSectionContent p {
+    margin: 15px 15px;
+    font-size: 1.1rem;
+  }
+  .social{
+    margin-left: 10px;
+  }
+  .social i{
+    font-size: 1.1rem;
+    margin: 0.1px;
+  }
+  .message-box form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .message-box input{
+    width: 70%;
+    margin: 15px 0;
+  }
+  .message-box textarea{
+    width: 70%;
+    margin: 15px 0;
+  }
+  .message-box button{
+    width: 50%;
+    left: 0px;
+  }
+  
+}
+@media screen and (max-width: 554px) {
+  .fourthSection {
+    margin: 15px 0px 15px 47px;
+    width: 80%;
+  }
+}
+
+/* about section  */
+@media screen and (max-width: 1179px) {
+  .ability div{
+    font-size: 0.7rem;
+  }
+
+}
+@media screen and (max-width: 927px) {
+  .secondSectionContent {
+    flex-direction: column;
+    align-items: center;
+  }
+  .about-photo {
+    width: 80%;
+    margin: 20px 0;
+  }
+  .edu-content{
+    width: 180%;
+    position: relative;
+    right: 150px;
+  }
+  .languages{
+    height: 400px;
+  }
+  .languages h2{
+    font-size: 1.5rem;
+  }
+  .ability{
+    width: 100%;
+    gap: 10px;
+  }
+  .ability div{
+    font-size: 0.6rem;
+  }
+
+}
+@media screen and (max-width: 713px) {
+  .secondSectionContent {
+    align-items: start;
+
+  }
+  .about-photo{
+    margin: 10px 35px;
+  }
+  .about-content{
+    width: 100%;
+  }
+  .edu-content{
+    width: 100%;
+    position: relative;
+    right: 0px;
+  }
+
+ 
+}
+@media screen and (max-width: 487px) {
+
+  .edu-content{
+    width: 100%;
+    overflow: auto;
+    /* justify-content: start;
+    align-items: start;
+    gap: 5px; */
+  }
+  .edu-content h2{
+    font-size: 1.3rem;
+  }
+  .edu-content p{
+    font-size: 0.8rem;
+  }
+  .school,
+.college,
+.university {
+  height: 230px;
+}
+
+}
+@media screen and (max-width: 460px) {
+  .school,
+  .college,
+  .university {
+    width: 110%;
+    height: 240px;
+  }
+}
+
+@media screen and (max-width: 460px) {
+  
+  footer{
+    font-size: 0.8rem;
+  }
+}
+
+/* project section */
+@media screen and (max-width: 1110px) {
+  .project1, .project2, .project3, .project4 {
+    height: 460px;
+  }
+  .project1 .pic img, .project2 .pic img, .project3 .pic img, .project4 .pic img {
+    width: 100%;
+    height: 330px;
+
+  }
+}
+@media screen and (max-width: 1054px) {
+  .project1, .project2, .project3, .project4 {
+    height: 450px;
+  }
+  .project1 .pic img, .project2 .pic img, .project3 .pic img, .project4 .pic img {
+    width: 100%;
+    height: 330px;
+    position: relative;
+    top: -50px;
+
+  }
+  .thirdSectionContent h2{
+    font-size: 1.5rem;
+  }
+  .thirdSectionContent p {
+    font-size: 1rem;
+  
+  }
+
+}
+@media screen and (max-width: 900px) {
+  .project1, .project2, .project3, .project4 {
+    width: 90%;
+  }
+  
+}
+@media screen and (max-width: 560px) {
+  .thirdSectionContent h2{
+    font-size: 1.3rem;
+  }
+  .thirdSectionContent p {
+    font-size: 0.8rem;
+  
+  }
+  .project1 .pic img, .project2 .pic img, .project3 .pic img, .project4 .pic img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -50px;
+
+  }
+}
+@media screen and (max-width: 425px) {
+  .project1, .project2, .project3, .project4 {
+    height: 400px;
+  }
+  .project1 .pic img, .project2 .pic img, .project3 .pic img, .project4 .pic img {
+    width: 100%;
+    height: 300px;
+    position: relative;
+    top: -50px;
+
+  }
+  .thirdSectionContent h2{
+    font-size: 1.1rem;
+  }
+  .thirdSectionContent p {
+    font-size: 0.6rem;
+  
+  }
+}
+@media screen and (min-width: 1478px) {
+  .project1 .pic img{
+    width: 70%;
+  }
+}
+@media screen and (min-width: 1881px) {
+  .project1 .pic img{
+    width: 60%;
+  }
+}
+@media screen and (min-width: 2205px) {
+  .project1 .pic img{
+    width: 50%;
+  }
+}
