@@ -408,6 +408,7 @@ main hr {
   border-radius: 8px;
   cursor: pointer;
   transition: all 0.3s;
+  z-index: 1000;
 }
 
 .top button:hover {
