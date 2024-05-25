@@ -356,7 +356,9 @@
  
 }
 @media screen and (max-width: 487px) {
-
+  .ability div{
+    font-size: 0.5rem;
+  }
   .edu-content{
     width: 100%;
     overflow: auto;
@@ -451,7 +453,7 @@
     height: 400px;
   }
   .project1 .pic img, .project2 .pic img, .project3 .pic img, .project4 .pic img {
-    width: 100%;
+    width: 70%;
     height: 300px;
     position: relative;
     top: -50px;
