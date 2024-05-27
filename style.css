@@ -433,10 +433,10 @@ main hr {
 .university {
   margin: 15px 10px;
   width: 44%;
-  height: 205px;
+  height: 215px;
   border-radius: 8px;
   box-shadow: 0px 8px 20px rgba(11, 123, 157, 0.3);
-  background: gray;
+  background: rgb(38, 3, 69);
   padding: 10px;
   transition: 0.5s;
   scroll-behavior: smooth;
@@ -447,7 +447,7 @@ main hr {
   height: 350px;
   border-radius: 8px;
   box-shadow: 0px 8px 20px rgba(11, 123, 157, 0.3);
-  background: gray;
+  background: rgb(38, 3, 69);
   padding: 10px;
   transition: 0.5s;
   scroll-behavior: smooth;
@@ -501,12 +501,12 @@ main hr {
 
 }
 .school p , .college p, .university p{
-  color: black;
+  color: white;
   font-size: 1rem;
 
 }
 .school i, .college i, .university i{
-  color: black;
+  /* color: black; */
   font-size: 0.8rem;
 }
 .about-content h1 {
