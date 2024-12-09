@@ -326,14 +326,13 @@ main hr {
 .about-photo {
   height: 350px;
   width: 320px;
-  background-image: url('img/me2.jpg');
+  background-image: url("img/me2.jpg");
   background-size: cover;
   background-position: center;
   border-radius: 8px;
   margin-left: 120px;
   box-shadow: 0 10px 20px rgba(104, 12, 129, 0.5),
     0 6px 6px rgba(11, 123, 157, 0.3);
-  
 }
 .about-photo:hover {
   transform: scale(1.2) rotate(2deg);
@@ -353,7 +352,7 @@ main hr {
   font-size: 2.5rem;
   margin: 20px 0;
 }
-.about-op{
+.about-op {
   display: flex;
   justify-content: space-evenly;
   margin: 20px 35px;
@@ -361,7 +360,7 @@ main hr {
 .about-item {
   position: relative;
 }
-.underline{
+.underline {
   /* text-shadow: 0 0 10px rgba(221, 180, 233, 0.8),
               0 0 20px rgba(221, 180, 233, 0.6),
               0 0 30px rgba(221, 180, 233, 0.4); */
@@ -378,7 +377,7 @@ main hr {
   background-color: white;
   animation: underline 0.3s forwards;
 }
-.about-item:hover{
+.about-item:hover {
   text-shadow: 0 0 10px rgba(221, 180, 233, 0.8),
     0 0 20px rgba(221, 180, 233, 0.6), 0 0 30px rgba(221, 180, 233, 0.4);
   color: rgb(215, 188, 239);
@@ -417,16 +416,15 @@ main hr {
     0 0 100px #821079;
   -webkit-box-reflect: below 1px linear-gradient(transparent, #0005);
 }
-.edu-content{
+.edu-content {
   display: flex;
   justify-content: space-evenly;
   align-items: flex-start;
   flex-wrap: wrap;
-  gap: 20px; 
+  gap: 20px;
   width: 100%;
   transition: 0.5s;
   scroll-behavior: smooth;
-
 }
 .school,
 .college,
@@ -441,10 +439,10 @@ main hr {
   transition: 0.5s;
   scroll-behavior: smooth;
 }
-.languages{
+.languages {
   margin: 15px 10px;
   width: 100%;
-  height: 350px;
+  height: 390px;
   border-radius: 8px;
   box-shadow: 0px 8px 20px rgba(11, 123, 157, 0.3);
   background: rgb(38, 3, 69);
@@ -452,9 +450,8 @@ main hr {
   transition: 0.5s;
   scroll-behavior: smooth;
 }
-.languages h2{
+.languages h2 {
   font-size: 2.2rem;
-
 }
 .ability {
   display: flex;
@@ -465,9 +462,8 @@ main hr {
   width: 100%;
   transition: 0.5s;
   scroll-behavior: smooth;
-
 }
-.ability div{
+.ability div {
   margin: 15px 10px;
   width: 15%;
   height: 50px;
@@ -478,12 +474,11 @@ main hr {
   transition: 0.5s;
   scroll-behavior: smooth;
   font-size: 1rem;
-
 }
-.ability div img{
+.ability div img {
   width: 15px;
 }
-.ability div:hover{
+.ability div:hover {
   transform: scale(1.1) translate(0px, -5px);
   box-shadow: 0 10px 190px rgba(104, 12, 129, 0.5),
     0 6px 6px rgba(11, 123, 157, 0.3);
@@ -498,21 +493,22 @@ main hr {
     0 6px 6px rgba(11, 123, 157, 0.3);
   transition: transform 0.5s, box-shadow 0.5s;
   cursor: pointer;
-
 }
-.school p , .college p, .university p{
+.school p,
+.college p,
+.university p {
   color: white;
   font-size: 1rem;
-
 }
-.school i, .college i, .university i{
+.school i,
+.college i,
+.university i {
   /* color: black; */
   font-size: 0.8rem;
 }
 .about-content h1 {
   font-size: 2.5rem;
   color: blueviolet;
-
 }
 /* third section */
 .thirdSectionContent {
@@ -537,9 +533,11 @@ main hr {
   width: 100%;
   transition: 0.5s;
   scroll-behavior: smooth;
-
 }
-.project1, .project2, .project3, .project4 {
+.project1,
+.project2,
+.project3,
+.project4 {
   margin: 15px 10px;
   width: 45%;
   height: 400px;
@@ -550,40 +548,49 @@ main hr {
   transition: 0.5s;
   scroll-behavior: smooth;
   font-size: 1rem;
-
 }
-.project1:hover, .project2:hover, .project3:hover, .project4:hover{
+.project1:hover,
+.project2:hover,
+.project3:hover,
+.project4:hover {
   transform: scale(1.01) translate(0px, -5px);
   box-shadow: 0 10px 50px rgba(104, 12, 129, 0.5),
     0 6px 6px rgba(11, 123, 157, 0.3);
   transition: transform 0.5s, box-shadow 0.5s;
   cursor: pointer;
-
 }
 .thirdSectionContent p {
   font-size: 1.2rem;
   margin: 20px 5px;
 }
-.infos{
+.infos {
   width: 40%;
 }
-.pic{
+.pic {
   display: flex;
   justify-content: end;
   align-items: end;
   width: 60%;
 }
-.pic img{
+.pic img {
   width: 90%;
 }
-.project2 .pic img, .project3 .pic img, .project4 .pic img{
+.project2 .pic img,
+.project3 .pic img,
+.project4 .pic img {
   width: 100%;
   height: 300px;
 }
-.project1, .project2, .project3, .project4 {
+.project1,
+.project2,
+.project3,
+.project4 {
   display: flex;
 }
-.project1 i:hover, .project2 i:hover, .project3 i:hover, .project4 i:hover{
+.project1 i:hover,
+.project2 i:hover,
+.project3 i:hover,
+.project4 i:hover {
   transform: translate(0px, -5px);
   color: blueviolet;
 }
@@ -630,6 +637,13 @@ main hr {
 .social a {
   padding: 10px;
 }
+.mail {
+  text-decoration: none;
+}
+.mail:hover {
+  text-decoration: underline;
+}
+
 #fb i:hover {
   transform: translate(0px, -5px);
   color: hsl(240, 100%, 50%);
@@ -650,10 +664,19 @@ main hr {
 .message-box {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   margin: 25px 15px;
   transition: 0.5s;
   scroll-behavior: smooth;
 }
+.review {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-style: italic;
+}
+
 .message-box {
   width: 60%;
 }
@@ -680,6 +703,11 @@ main hr {
   width: 30%;
   left: 250px;
   top: -20px;
+}
+
+#success-message {
+  display: flex;
+  justify-content: center;
 }
 /* footer */
 footer {

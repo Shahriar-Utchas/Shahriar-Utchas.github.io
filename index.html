@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,40 +11,43 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
+
 <body>
     <header>
-    <div class="navbar">
-        <div class="nav-left">
-            <img src="img/utchas.svg" alt="name">
+        <div class="navbar">
+            <div class="nav-left">
+                <img src="img/utchas.svg" alt="name">
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="#secondSection">About</a></li>
+                    <li><a href="#thirdSection">Projects</a></li>
+                    <li><a href="#fourthSection">Contact</a></li>
+                </ul>
+            </div>
+            <div class="menu-btn">
+                <span>&#9776;</span>
+            </div>
+            <div class="sidebar">
+                <ul>
+                    <div class="cross-btn">
+                        <span>&cross; </span>
+                    </div>
+                    <li><a href="#firstContent">Home</a></li>
+                    <li><a href="#secondSection">About</a></li>
+                    <li><a href="#thirdSection">Projects</a></li>
+                    <li><a href="#fourthSection">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="nav-right">
-            <ul>
-                <li><a href="">Home</li></a>
-                <li><a href="#secondSection">About</li></a>
-                <li><a href="#thirdSection">Projects</li></a>
-                <li><a href="#fourthSection">Contact</li></a>       
-            </ul>
-        </div>
-        <div class="menu-btn">
-            <span>&#9776;</span>
-        </div>   
-        <div class="sidebar">
-            <ul>
-                <div class="cross-btn">
-                    <span>&cross; </span>
-                </div>
-                <li><a href="#firstContent">Home</a></li>
-                <li><a href="#secondSection">About</a></li>
-                <li><a href="#thirdSection">Projects</a></li>
-                <li><a href="#fourthSection">Contact</a></li>
-            </ul>
-        </div>
-    </div>
     </header>
+
     <main>
-        <section class="firstSection" id = "firstContent">
+        <!-- First Section -->
+        <section class="firstSection" id="firstContent">
             <div class="firstContent">
-                <p>Hello! I'm <span class = "name">Shahriar Utchas</span></p>
+                <p>Hello! I'm <span class="name">Shahriar Utchas</span></p>
                 <p>I am into <span id="element"></span></p>
                 <div class="butttons">
                     <button class="btn"><a href="img/SHAHRIAR HOSSEN.pdf"> Download CV</a></button>
@@ -52,7 +56,6 @@
             </div>
             <div class="secondContent">
                 <img src="img/me.jpg" alt="">
-
             </div>
             <div class="numbers-img">
                 <img src="img/g0.png" alt="">
@@ -76,41 +79,41 @@
                 <img src="img/w0.png" alt="">
                 <img src="img/g1.png" alt="">
             </div>
-           
         </section>
         <hr>
 
-        <section class="secondSection" id = "secondSection">
+        <!-- Second Section -->
+        <section class="secondSection" id="secondSection">
             <div class="secondSectionContent">
                 <div class="about-photo"></div>
                 <div class="about-content">
                     <h1>About Me</h1>
-                    <p>I'm Shahriar Utchas, a Computer Science and Engineering student at American International University-Bangladesh (AIUB). I am passionate about web development and interested in exploring the applications of Artificial Intelligence.</p>
+                    <i>Hi, I'm Shahriar Utchas, a Computer Science and Engineering student at American International University-Bangladesh (AIUB). I'm deeply passionate about web development and exploring the transformative potential of Machine Learning and Deep Learning.</i>
                     <div class="about-op">
-                        <div class = "about-item skill underline" id="skill">Skills</div>
-                        <div class = "about-item edu" id ="education">Educations</div>
+                        <div class="about-item skill underline" id="skill">Skills</div>
+                        <div class="about-item edu" id="education">Educations</div>
                     </div>
                     <div class="skill-content">
                         <div class="languages">
-                            <h2 style="color: rgb(164, 235, 227);">Programming Languages</h2>
+                            <h2 style="color: rgb(164, 235, 227);">Programming Languages & Frameworks</h2>
                             <br>
                             <hr>
                             <div class="ability">
-                                <div class="gg">HTML</div>
-                                <div class="gg">CSS</div>
-                                <div class="gg">Java <br>Script</div>
-                                <div class="gg">PHP</div>
                                 <div class="gg">C++</div>
                                 <div class="gg">C#</div>
                                 <div class="gg">Python</div>
                                 <div class="gg">JAVA</div>
-                                <div class="gg">MySQL</div>                                
+                                <div class="gg">HTML</div>
+                                <div class="gg">CSS</div>
+                                <div class="gg">Java <br>Script</div>
+                                <div class="gg">PHP</div>
+                                <div class="gg">ASP.NET</div>
+                                <div class="gg">MySQL</div>
                             </div>
-                            
-                        </div>            
+                        </div>
                     </div>
-                    
-                    <div class="edu-content" style = "display: none;">                            
+
+                    <div class="edu-content" style="display: none;">
                         <div class="university">
                             <h2 style="color: rgb(164, 235, 227);">2022-present</h2>
                             <hr>
@@ -124,14 +127,14 @@
                         </div>
 
                         <div class="college">
-                          <h2 style="color: rgb(164, 235, 227);">2018-2020</h2>
-                          <hr>
-                          <br>
-                          <p><i class="fa-solid fa-building-columns"></i> Higher Secondary School</p>
-                          <br>
-                          <p><i class="fa-solid fa-location-pin"></i> Uttara High School And College</p>
-                          <br>
-                          <p><i class="fa-solid fa-newspaper"></i> Grade: A+(5.00)</p>
+                            <h2 style="color: rgb(164, 235, 227);">2018-2020</h2>
+                            <hr>
+                            <br>
+                            <p><i class="fa-solid fa-building-columns"></i> Higher Secondary School</p>
+                            <br>
+                            <p><i class="fa-solid fa-location-pin"></i> Uttara High School And College</p>
+                            <br>
+                            <p><i class="fa-solid fa-newspaper"></i> Grade: A+(5.00)</p>
                         </div>
                         <div class="school">
                             <h2 style="color: rgb(164, 235, 227);">2010-2018</h2>
@@ -143,15 +146,15 @@
                             <br>
                             <p><i class="fa-solid fa-newspaper"></i> Grade: A(4.94)</p>
                         </div>
-
                     </div>
                 </div>
             </div>
-            <div class="top"><button onclick="scrollToTop()"><i class="fa-solid fa-circle-up"></i></button></div>
+            <!-- <div class="top"><button onclick="scrollToTop()"><i class="fa-solid fa-circle-up"></i></button></div> -->
         </section>
         <hr>
-        
-        <section class="thirdSection" id = "thirdSection">
+
+        <!-- Third Section -->
+        <section class="thirdSection" id="thirdSection">
             <div class="thirdSectionContent">
                 <h1>My Projects</h1>
                 <br>
@@ -175,14 +178,15 @@
                             <h2 style="color: rgb(62, 193, 86);font-weight: bold;">Title</h2>
                             <p>Agri-Shop <a href="https://github.com/Shahriar-Utchas/Agri-Shop" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a></p>
                             <h2 style="color: rgb(62, 193, 86);font-weight: bold;">Description</h2>
-                            <p>This is a farmars products selling windowns form application</p>
+                            <p>This is a farmers products selling windows form application</p>
                             <h2 style="color: rgb(62, 193, 86);font-weight: bold;">Tools used</h2>
-                            <p>c#, .net framework, microsoft SQL server management studio</p>
+                            <p>C#, .NET Framework, Microsoft SQL Server Management Studio</p>
                         </div>
                         <div class="pic">
                             <img src="img/agrishop.png" alt="">
                         </div>
                     </div>
+
                     <div class="project3">
                         <div class="infos">
                             <h2 style="color: rgb(199, 69, 29);font-weight: bold;">Title</h2>
@@ -194,7 +198,7 @@
                         </div>
                         <div class="pic">
                             <img src="img/dokan.png" alt="">
-                        </div>                        
+                        </div>
                     </div>
 
                     <div class="project4">
@@ -202,61 +206,82 @@
                             <h2 style="color: rgb(39, 197, 202);font-weight: bold;">Title</h2>
                             <p>Graphics project <a href="https://github.com/Shahriar-Utchas/Computer_graphics_final_project" target="_blank"> <i class="fa-solid fa-up-right-from-square"></i></a></p>
                             <h2 style="color: rgb(39, 197, 202);font-weight: bold;">Description</h2>
-                            <p>A mountain scenario with tunnel, animate train, animate fountain , animate jeep</p>
+                            <p>A mountain scenario with tunnel, animate train, animate fountain, animate jeep</p>
                             <h2 style="color: rgb(39, 197, 202);font-weight: bold;">Tools used</h2>
-                            <p>c++, OpenGL</p>
+                            <p>C++, OpenGL</p>
                         </div>
                         <div class="pic">
                             <img src="img/graphics.png" alt="">
-                        </div>                     
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <hr>
 
-        <section class="fourthSection" id = "fourthSection">
-        <div class="fourthSectionContent">
-            <div class="contacts">
-                <h1>Contact Me</h1>
-                <p><i class="fa-solid fa-envelope"></i>  &nbsp;   shutchas6@gamil.com</p>
-                <p><i class="fa-solid fa-phone"></i> &nbsp; +8801924482246</p>
-                <p>
-                    <div class="social">
-                        <a href="https://www.facebook.com/shahriar.utchas" target="_blank" id = "fb"><i class="fa-brands fa-facebook"></i></a>
-                        <a href="https://www.linkedin.com/in/shahriar-utchas/" target="_blank" id = "lnkdin"><i class="fa-brands fa-linkedin"></i></a>
-                        <a href="https://github.com/Shahriar-Utchas" target="_blank" id="git"><i class="fa-brands fa-square-github"></i></a>
-                        <a href="https://www.instagram.com/_utchas_" target="_blank" id = "insta"><i class="fa-brands fa-square-instagram"></i></a>
-                    </div>
-                </p>
+        <!-- Fourth Section -->
+        <section class="fourthSection" id="fourthSection">
+            <div class="fourthSectionContent">
+                <div class="contacts">
+                    <h1>Contact Me</h1>
+                    <p><i class="fa-solid fa-envelope"></i> &nbsp; <a class="mail" href="mailto:shutchas6@gmail.com">shutchas6@gmail.com</a></p>
+                    <p><i class="fa-solid fa-phone"></i> &nbsp; +8801924482246</p>
+                    <p>
+                        <div class="social">
+                            <a href="https://www.facebook.com/shahriar.utchas" target="_blank" id="fb"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://www.linkedin.com/in/shahriar-utchas/" target="_blank" id="lnkdin"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://github.com/Shahriar-Utchas" target="_blank" id="git"><i class="fa-brands fa-square-github"></i></a>
+                            <a href="https://www.instagram.com/_utchas_" target="_blank" id="insta"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                    </p>
+                </div>
+                
+                <div  class="message-box">
+                    <h3 class="review">Give a Review ^_^</h3>
+                        <form id="review-form" action="https://formspree.io/f/mkgnarpn" method="POST" >
+                          <input type="text" name="name" placeholder="Enter Your Name" required>
+                          <textarea name="message" placeholder="Enter Your Message" required></textarea>
+                          <button class = "btn"type="submit">Send</button>
+                        </form>
+                </div>
             </div>
-            <div class="message-box">
-                <form action="">
-                <input type="text" id = "msg-name" placeholder="Enter your name" required>
-                <input type="email" id = "msg-email" placeholder="Enter your E-mail" required>
-                <textarea rows = "6"placeholder="Your message" id = "msg-text" required></textarea>
-                <button class="btn">Submit</button>
-                </form>
+            <div id="success-message" style=" color: green; display: none;">
+                Your message has been successfully sent! Thank you!
             </div>
-        </div>
         </section>
         <hr>
     </main>
+
+    <!-- Footer -->
     <footer>
         <div class="footer">
-            <p>Copyright &copy;Shahriar Utchas</p>
+            <p>Copyright &copy; Shahriar Utchas</p>
         </div>
     </footer>
-        <!-- JS part -->
+
+    <!-- JS part -->
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
     <script>
         var typed = new Typed('#element', {
-          strings: ['Web Development', 'Forntend Development', 'Backend Development', 'Web Designing', 'Software Development'],
-          typeSpeed: 50,
+            strings: ['Software Development', 'Web Development', 'Backend Development'],
+            typeSpeed: 50,
             backSpeed: 50,
             loop: true
         });
     </script>
+<script>
+    window.embeddedChatbotConfig = {
+    chatbotId: "nyLT_jyPtyF1daYW6wTey",
+    domain: "www.chatbase.co"
+    }
+    </script>
+    <script
+    src="https://www.chatbase.co/embed.min.js"
+    chatbotId="nyLT_jyPtyF1daYW6wTey"
+    domain="www.chatbase.co"
+    defer>
+    </script>
     <script src="index.js"></script>
 </body>
+
 </html>

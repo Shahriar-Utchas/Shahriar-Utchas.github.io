@@ -55,3 +55,40 @@ skillOption.addEventListener("click", () => {
   skillContent.style.display = "flex";
   skillContent2.classList.add("underline");
 });
+
+///E-mail submission
+document.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("review-form");
+  const successMessage = document.getElementById("success-message");
+
+  form.addEventListener("submit", (event) => {
+    event.preventDefault(); // Prevent the default form submission
+
+    // Get the form data
+    const formData = new FormData(form);
+
+    // Use fetch to send the form data to Formspree
+    fetch(form.action, {
+      method: "POST",
+      body: formData,
+      headers: {
+        Accept: "application/json", // Optional: Allow Formspree to send back a response
+      },
+    })
+      .then((response) => {
+        if (response.ok) {
+          // Show success message after form submission
+          form.reset(); // Optionally reset the form
+          successMessage.style.display = "block"; // Show the success message
+        } else {
+          throw new Error("Failed to submit form");
+        }
+      })
+      .catch((error) => {
+        console.error(error);
+        alert(
+          "There was an issue submitting the form. Please try again later."
+        );
+      });
+  });
+});
