@@ -559,6 +559,29 @@ main hr {
   transition: transform 0.5s, box-shadow 0.5s;
   cursor: pointer;
 }
+.project1:hover .pic img,
+.project2:hover .pic img,
+.project3:hover .pic img,
+.project4:hover .pic img {
+  transform: perspective(300px) rotateY(-15deg); /* Adds 3D tilt effect */
+  transition: transform 0.5s ease; /* Smooth transition */
+  filter: brightness(1.2); /* Optional: Slightly brighten the image */
+}
+.pic i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 2.2rem; /* Adjust icon size */
+  z-index: 10000000; /* Makes sure the icon is above the image */
+  display: none;
+}
+.project1:hover .pic i,
+.project2:hover .pic i,
+.project3:hover .pic i,
+.project4:hover .pic i {
+  display: inline-block; /* Show the icon on hover */
+}
 .thirdSectionContent p {
   font-size: 1.2rem;
   margin: 20px 5px;
@@ -567,6 +590,7 @@ main hr {
   width: 40%;
 }
 .pic {
+  position: relative;
   display: flex;
   justify-content: end;
   align-items: end;
@@ -587,10 +611,10 @@ main hr {
 .project4 {
   display: flex;
 }
-.project1 i:hover,
-.project2 i:hover,
-.project3 i:hover,
-.project4 i:hover {
+.infos i:hover,
+.infos i:hover,
+.infos i:hover,
+.infos i:hover {
   transform: translate(0px, -5px);
   color: blueviolet;
 }

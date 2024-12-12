@@ -13,10 +13,9 @@
   .menu-btn {
     display: block; /* Show menu button */
   }
-  .nav-left img{
+  .nav-left img {
     width: 200px;
     /* margin-right: 10px; */
-  
   }
   .firstSection {
     flex-direction: column-reverse;
@@ -48,203 +47,188 @@
     cursor: pointer;
     transition: all 0.3s;
   }
-  .top{
+  .top {
     left: 420px;
   }
-  footer{
+  footer {
     width: 50%;
   }
 }
 
 /* top button */
 @media screen and (max-width: 1261px) {
-  .top{
+  .top {
     left: 1100px;
   }
-
 }
 @media screen and (max-width: 1171px) {
-  .top{
+  .top {
     left: 1050px;
   }
-
 }
 @media screen and (max-width: 1121px) {
-  .top{
+  .top {
     left: 1000px;
   }
-
 }
 @media screen and (max-width: 1063px) {
-  .top{
+  .top {
     left: 900px;
   }
-
 }
 @media screen and (max-width: 973px) {
-  .top{
+  .top {
     left: 800px;
   }
-
 }
 @media screen and (max-width: 868px) {
-  .top{
+  .top {
     left: 700px;
   }
-
 }
 @media screen and (max-width: 771px) {
-  .top{
+  .top {
     left: 600px;
   }
-
 }
 @media screen and (max-width: 663px) {
-  .top{
+  .top {
     left: 500px;
   }
-
 }
 @media screen and (max-width: 566px) {
-  .top{
+  .top {
     left: 400px;
   }
-
 }
 @media screen and (max-width: 467px) {
-  .top{
+  .top {
     left: 350px;
   }
-
 }
 @media screen and (max-width: 413px) {
-  .top{
+  .top {
     left: 300px;
   }
-
 }
 @media screen and (max-width: 367px) {
-  .top{
+  .top {
     left: 250px;
   }
-
 }
 @media screen and (min-width: 1284px) {
-  .top{
+  .top {
     left: 1220px;
   }
-
 }
 @media screen and (min-width: 1370px) {
-  .top{
+  .top {
     left: 1280px;
   }
-
 }
 @media screen and (min-width: 1500px) {
-  .top{
+  .top {
     left: 1350px;
   }
-
 }
 /* top button responsive ends */
 
 /* contact */
 @media screen and (max-width: 1078px) {
-  .fourthSectionContent h1{
+  .fourthSectionContent h1 {
     font-size: 2.7rem;
   }
   .fourthSectionContent p {
     font-size: 1.3rem;
   }
-  .social{
+  .social {
     margin-left: 10px;
   }
-  .social i{
+  .social i {
     font-size: 1.5rem;
     margin: 6px;
   }
 }
 @media screen and (max-width: 1021px) {
-  .fourthSectionContent h1{
+  .fourthSectionContent h1 {
     font-size: 2.5rem;
   }
   .fourthSectionContent p {
     font-size: 1.1rem;
   }
-  .social i{
+  .social i {
     font-size: 1.3rem;
     margin: 5px;
   }
 }
 @media screen and (max-width: 929px) {
-  .fourthSectionContent h1{
+  .fourthSectionContent h1 {
     font-size: 2rem;
   }
   .fourthSectionContent p {
     font-size: 1rem;
   }
-  .social{
+  .social {
     margin-left: 15px;
   }
-  .social i{
+  .social i {
     font-size: 1.1rem;
     margin: 3px;
   }
 }
 @media screen and (max-width: 856px) {
-  .fourthSection{
+  .fourthSection {
     width: 70%;
   }
-  .fourthSectionContent h1{
+  .fourthSectionContent h1 {
     font-size: 1.8rem;
   }
   .fourthSectionContent p {
     margin: 15px 25px;
     font-size: 0.8rem;
   }
-  .social{
+  .social {
     margin-left: 15px;
   }
-  .social i{
+  .social i {
     font-size: 1rem;
     margin: 1.5px;
   }
-  .message-box input{
+  .message-box input {
     width: 60%;
   }
-  .message-box textarea{
+  .message-box textarea {
     width: 60%;
   }
-  .message-box button{
+  .message-box button {
     left: 220px;
   }
 }
 @media screen and (max-width: 792px) {
-  .fourthSection{
+  .fourthSection {
     width: 70%;
   }
-  .fourthSectionContent h1{
+  .fourthSectionContent h1 {
     font-size: 1.5rem;
   }
   .fourthSectionContent p {
     margin: 15px 15px;
     font-size: 0.8rem;
   }
-  .social{
+  .social {
     margin-left: 10px;
   }
-  .social i{
+  .social i {
     font-size: 0.8rem;
     margin: 0.1px;
   }
-  .message-box input{
+  .message-box input {
     width: 60%;
   }
-  .message-box textarea{
+  .message-box textarea {
     width: 60%;
   }
-  .message-box button{
+  .message-box button {
     left: 200px;
   }
 }
@@ -253,45 +237,44 @@
     margin: 15px 0px 15px 70px;
     width: 80%;
   }
-  .fourthSectionContent{
+  .fourthSectionContent {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .fourthSectionContent h1{
+  .fourthSectionContent h1 {
     font-size: 2.3rem;
   }
   .fourthSectionContent p {
     margin: 15px 15px;
     font-size: 1.1rem;
   }
-  .social{
+  .social {
     margin-left: 10px;
   }
-  .social i{
+  .social i {
     font-size: 1.1rem;
     margin: 0.1px;
   }
-  .message-box form{
+  .message-box form {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
-  .message-box input{
+  .message-box input {
     width: 100%;
     margin: 15px 0;
   }
-  .message-box textarea{
+  .message-box textarea {
     width: 100%;
     margin: 15px 0;
   }
-  .message-box button{
+  .message-box button {
     width: 50%;
     left: 0px;
   }
-  
 }
 @media screen and (max-width: 554px) {
   .fourthSection {
@@ -302,17 +285,16 @@
 
 /* about section  */
 @media screen and (max-width: 1179px) {
-  .ability div{
+  .ability div {
     font-size: 0.7rem;
   }
-
 }
 @media screen and (max-width: 1070px) {
   .school,
-.college,
-.university {
-  width: 70%;
-}
+  .college,
+  .university {
+    width: 70%;
+  }
 }
 @media screen and (max-width: 927px) {
   .secondSectionContent {
@@ -328,44 +310,40 @@
     width: 80%;
     margin: 20px 0;
   }
-  .edu-content{
+  .edu-content {
     width: 180%;
     position: relative;
     right: 150px;
   }
-  .languages{
+  .languages {
     height: 400px;
   }
-  .languages h2{
+  .languages h2 {
     font-size: 1.5rem;
   }
-  .ability{
+  .ability {
     width: 100%;
     gap: 10px;
   }
-  .ability div{
+  .ability div {
     font-size: 0.6rem;
   }
-
 }
 @media screen and (max-width: 713px) {
   .secondSectionContent {
     align-items: start;
-
   }
-  .about-photo{
+  .about-photo {
     margin: 10px 35px;
   }
-  .about-content{
+  .about-content {
     width: 100%;
   }
-  .edu-content{
+  .edu-content {
     width: 100%;
     position: relative;
     right: 0px;
   }
-
- 
 }
 @media screen and (max-width: 570px) {
   .school,
@@ -373,37 +351,34 @@
   .university {
     width: 60%;
   }
-
 }
 @media screen and (max-width: 487px) {
-  .ability div{
+  .ability div {
     font-size: 0.5rem;
   }
-  .edu-content{
+  .edu-content {
     width: 100%;
     overflow: auto;
     /* justify-content: start;
     align-items: start;
     gap: 5px; */
   }
-  .edu-content h2{
+  .edu-content h2 {
     font-size: 1.3rem;
   }
-  .edu-content p{
+  .edu-content p {
     font-size: 0.8rem;
   }
   .school,
-.college,
-.university {
-  width: 80%;
-  height: 200px;
-}
-
+  .college,
+  .university {
+    width: 80%;
+    height: 200px;
+  }
 }
 
 @media screen and (max-width: 460px) {
-  
-  footer{
+  footer {
     font-size: 0.7rem;
   }
 }
@@ -411,49 +386,67 @@
 /* project section */
 
 @media screen and (max-width: 1100px) {
-  .project1, .project2, .project3, .project4 {
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
     width: 90%;
   }
-  .project1 .pic img{
+  .project1 .pic img {
     width: 80%;
     height: 350px;
   }
-  
 }
 @media screen and (max-width: 650px) {
-  .projects h2{
+  .projects h2 {
     font-size: 1.5rem;
   }
-  .projects p{
+  .projects p {
     width: 240%;
   }
-  .project1, .project2, .project3, .project4 {
+  .project1,
+  .project2,
+  .project3,
+  .project4 {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     height: auto;
   }
-  .project1 .pic, .project2 .pic, .project3 .pic, .project4 .pic {
+  .project1 .pic,
+  .project2 .pic,
+  .project3 .pic,
+  .project4 .pic {
     width: 100%;
     height: 350px;
     display: flex;
     justify-content: center;
     align-items: center;
   }
-
-} 
+}
 @media screen and (min-width: 1478px) {
-  .project1 .pic img{
+  .project1 .pic img {
     width: 70%;
   }
 }
 @media screen and (min-width: 1881px) {
-  .project1 .pic img{
+  .project1 .pic img {
     width: 60%;
   }
 }
 @media screen and (min-width: 2205px) {
-  .project1 .pic img{
+  .project1 .pic img {
     width: 50%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .languages {
+    height: 500px;
+  }
+  .ability div {
+    width: 20%;
+  }
+  .review {
+    font-size: 1.2rem;
   }
 }
