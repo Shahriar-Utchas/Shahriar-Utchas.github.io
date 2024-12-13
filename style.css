@@ -670,18 +670,22 @@ main hr {
 
 #fb i:hover {
   transform: translate(0px, -5px);
+  transition: 0.5s;
   color: hsl(240, 100%, 50%);
 }
 #lnkdin i:hover {
   transform: translate(0px, -5px);
+  transition: 0.5s;
   color: hsl(240, 100%, 64%);
 }
 #git i:hover {
   transform: translate(0px, -5px);
+  transition: 0.5s;
   color: rgb(73, 72, 72);
 }
 #insta i:hover {
   transform: translate(0px, -5px);
+  transition: 0.5s;
   color: orangered;
 }
 
