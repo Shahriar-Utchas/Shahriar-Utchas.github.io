@@ -72,13 +72,13 @@ document.addEventListener("DOMContentLoaded", () => {
       method: "POST",
       body: formData,
       headers: {
-        Accept: "application/json", // Optional: Allow Formspree to send back a response
+        Accept: "application/json", // Allow Formspree to send back a response
       },
     })
       .then((response) => {
         if (response.ok) {
           // Show success message after form submission
-          form.reset(); // Optionally reset the form
+          form.reset(); //reset the form
           successMessage.style.display = "block"; // Show the success message
         } else {
           throw new Error("Failed to submit form");
